@@ -294,5 +294,6 @@ gene_finder(dna)
 
 if __name__ == "__main__":
     import doctest
+    doctest.testmod()
     #doctest.run_docstring_examples(coding_strand_to_AA, globals(), verbose=True)
     #doctest.testmod()
